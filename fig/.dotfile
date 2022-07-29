@@ -1,0 +1,44 @@
+alias c='code . -r'
+alias du='docker compose up -d'
+alias p='pnpm'
+alias pi='pnpm install'
+alias pdevc='pnpm dev:client'
+alias y='yarn'
+alias yi='yarn'
+alias pdev='pnpm dev'
+alias pdevs='pnpm dev:server'
+alias pbuildp='pnpm build:package'
+alias pstart='pnpm start'
+alias ydev='yarn dev'
+alias ybuild='yarn build'
+alias ybuildp='yarn build:package'
+alias ystart='yarn start'
+alias pbuild='pnpm build'
+
+### zsh-autosuggestions
+if [ -d '/Users/gusbell/.local/share/fig/plugins/zsh-autosuggestions'
+]; then
+
+source '/Users/gusbell/.local/share/fig/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh'
+fi
+
+### zsh-syntax-highlighting
+if [ -d '/Users/gusbell/.local/share/fig/plugins/zsh-syntax-highlighting'
+]; then
+
+source '/Users/gusbell/.local/share/fig/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh'
+fi
+
+### zsh-you-should-use_MichaelAquilina
+if [ -d '/Users/gusbell/.local/share/fig/plugins/zsh-you-should-use_MichaelAquilina'
+]; then
+
+source '/Users/gusbell/.local/share/fig/plugins/zsh-you-should-use_MichaelAquilina/you-should-use.plugin.zsh'
+fi
+
+### git-open
+if [ -d '/Users/gusbell/.local/share/fig/plugins/git-open'
+]; then
+
+source '/Users/gusbell/.local/share/fig/plugins/git-open/git-open.plugin.zsh'
+fi
